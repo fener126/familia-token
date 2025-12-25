@@ -1,12 +1,1 @@
-{
-  "name": "Familia",
-  "symbol": "FAMLY",
-  "description": "Familia (FAMLY) est un token Solana à offre fixe basé sur des valeurs familiales, la confiance et une vision long terme.",
-  "image": "LOGO_URL_ICI",
-  "external_url": "",
-  "attributes": [
-    { "trait_type": "Category", "value": "Family" },
-    { "trait_type": "Supply", "value": "1000000000" },
-    { "trait_type": "Network", "value": "Solana" }
-  ]
-}
+
