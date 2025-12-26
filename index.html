@@ -1,4 +1,5 @@
 
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -13,9 +14,13 @@
     .row{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
     img{width:96px;height:96px;border-radius:18px}
     h1{margin:0}
-    .muted{opacity:.8}
+    h2{margin:0 0 8px}
+    h3{margin:12px 0 6px}
+    .muted{opacity:.82}
     code{background:#0f1830;padding:2px 6px;border-radius:8px}
     ul{margin:10px 0 0 18px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#0f1830;border:1px solid #223055;margin:6px 8px 0 0;font-size:13px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
   </style>
 </head>
 
@@ -30,6 +35,10 @@
         <p class="muted">
           Token Solana — projet éducatif et familial, sérieux et long terme — développé en Suisse 🇨🇭
         </p>
+        <span class="pill">Éducation</span>
+        <span class="pill">Famille</span>
+        <span class="pill">Sécurité</span>
+        <span class="pill">Utilité réelle</span>
       </div>
     </div>
 
@@ -43,6 +52,9 @@
         <a href="https://explorer.solana.com/address/631hTurbTXNimLNAv7feRH6BVKbJTuo6eD8uqSAqbXdN?cluster=mainnet-beta" target="_blank" rel="noreferrer">
           Voir le token
         </a>
+      </p>
+      <p class="muted">
+        Cette page présente la vision et l’utilité du projet. Elle ne contient aucune promesse de rendement ou de gain.
       </p>
     </div>
 
@@ -93,38 +105,132 @@
       </p>
     </div>
 
-    <!-- MISSION -->
+    <!-- VALEURS -->
+    <div class="card">
+      <h2>Valeurs</h2>
+      <div class="grid">
+        <div>
+          <h3>Confiance</h3>
+          <p class="muted">Transparence, règles claires, communication honnête et progression durable.</p>
+        </div>
+        <div>
+          <h3>Sécurité</h3>
+          <p class="muted">Protection des enfants, contrôle parental, approche responsable et prudente.</p>
+        </div>
+        <div>
+          <h3>Utilité</h3>
+          <p class="muted">Un token pensé pour l’usage et l’éducation, pas pour la spéculation.</p>
+        </div>
+        <div>
+          <h3>Respect</h3>
+          <p class="muted">Expérience positive, motivante, adaptée à l’âge, sans pression inutile.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MISSION (AMÉLIORÉE) -->
     <div class="card">
       <h2>Mission</h2>
+      <p>
+        La mission de FAMILIA est de créer un environnement simple, motivant et sécurisé qui aide les familles
+        à accompagner les enfants dans leurs apprentissages, avec une logique de progression et de récompense.
+      </p>
       <ul>
-        <li>Aider les parents à motiver leurs enfants</li>
-        <li>Transformer les efforts scolaires en récompenses</li>
-        <li>Rendre l’apprentissage plus engageant grâce à la technologie</li>
-        <li>Créer une expérience simple, rapide et responsable</li>
+        <li><b>Motiver</b> les enfants grâce à des objectifs clairs, des niveaux et des récompenses adaptées</li>
+        <li><b>Faciliter</b> la vie des parents avec des outils simples pour organiser et valider les devoirs</li>
+        <li><b>Encourager</b> la régularité, l’autonomie et la responsabilité au quotidien</li>
+        <li><b>Créer</b> une expérience éducative positive, sans pression financière et centrée sur l’utilité</li>
+        <li><b>Protéger</b> les enfants grâce au contrôle parental, à la sécurité et à la transparence</li>
       </ul>
     </div>
 
-    <!-- UTILITÉ -->
+    <!-- UTILITÉ (AMÉLIORÉE) -->
     <div class="card">
       <h2>Utilité</h2>
+      <p>
+        FAMILIA est conçu comme un outil d’usage, intégré à une plateforme familiale. Le token sert à récompenser
+        l’apprentissage et à débloquer des fonctionnalités éducatives.
+      </p>
       <ul>
-        <li>Récompenses éducatives (devoirs, progression, objectifs)</li>
-        <li>Jeux et contenus d’apprentissage</li>
-        <li>Niveaux, badges et motivation</li>
-        <li>Services optionnels pour les parents</li>
-        <li>Partenariats et usages concrets (à venir)</li>
+        <li><b>Récompenses éducatives</b> : progression, devoirs terminés, objectifs atteints</li>
+        <li><b>Gamification</b> : niveaux, badges, défis hebdomadaires, missions de lecture / calcul / langues</li>
+        <li><b>Contenus d’apprentissage</b> : mini-jeux, exercices, fiches, révisions (selon l’âge)</li>
+        <li><b>Fonctions premium</b> (optionnelles) : suivi avancé, statistiques, organisation familiale</li>
+        <li><b>Écosystème partenaires</b> (à venir) : réductions et avantages sur des produits/services familiaux</li>
       </ul>
-      <p><b>Note :</b> aucun achat obligatoire pour les enfants.</p>
+      <p class="muted">
+        Aucun achat obligatoire pour les enfants. Le projet privilégie l’usage réel et la protection des familles.
+      </p>
     </div>
 
-    <!-- ROADMAP -->
+    <!-- SÉCURITÉ -->
+    <div class="card">
+      <h2>Sécurité & contrôle parental</h2>
+      <ul>
+        <li><b>Contrôle parental</b> : les parents valident les activités et les récompenses</li>
+        <li><b>Approche responsable</b> : priorité à la sécurité des enfants et à l’utilité</li>
+        <li><b>Transparence</b> : informations publiques et évolution progressive</li>
+        <li><b>Protection</b> : expérience adaptée, respectueuse et non toxique</li>
+      </ul>
+      <p class="muted">
+        La sécurité et le respect des familles sont des priorités du projet.
+      </p>
+    </div>
+
+    <!-- ROADMAP (AMÉLIORÉE) -->
     <div class="card">
       <h2>Roadmap</h2>
-      <p><b>Phase 1 – Fondation</b><br>Token, sécurité, transparence, base du projet.</p>
-      <p><b>Phase 2 – Utilité de base</b><br>Système parents → enfants, récompenses éducatives.</p>
-      <p><b>Phase 3 – Plateforme</b><br>Site/app, devoirs, validation parentale, assistance IA.</p>
-      <p><b>Phase 4 – Gamification</b><br>Niveaux, badges, objectifs éducatifs.</p>
-      <p><b>Phase 5 – Économie réelle</b><br>Partenariats et usages concrets.</p>
+
+      <p><b>Phase 1 – Fondation</b><br>
+        Lancement du token, documentation officielle, sécurité de base, page publique et transparence.
+      </p>
+
+      <p><b>Phase 2 – Prototype éducatif</b><br>
+        Conception du système “Parents → Enfants”, définition des règles de récompense, premiers tests privés.
+      </p>
+
+      <p><b>Phase 3 – Plateforme (MVP)</b><br>
+        Première version du site/app : ajout des devoirs, validation parentale, suivi de progression,
+        et premières récompenses.
+      </p>
+
+      <p><b>Phase 4 – IA & amélioration</b><br>
+        Aide intelligente (feedback, suggestions, correction), amélioration de l’expérience utilisateur,
+        sécurité renforcée.
+      </p>
+
+      <p><b>Phase 5 – Gamification avancée</b><br>
+        Niveaux, badges, défis, contenus éducatifs plus riches, personnalisation selon l’âge.
+      </p>
+
+      <p><b>Phase 6 – Partenariats & usages réels</b><br>
+        Déploiement progressif de partenariats et d’avantages concrets pour les familles.
+      </p>
+
+      <p><b>Phase 7 – Internationalisation</b><br>
+        Multilingue, expansion internationale, collaborations éducatives, évolution long terme.
+      </p>
+
+      <p class="muted">
+        Les étapes peuvent évoluer selon les retours de la communauté et les exigences de sécurité.
+      </p>
+    </div>
+
+    <!-- FAQ -->
+    <div class="card">
+      <h2>FAQ</h2>
+      <p><b>FAMILIA promet des gains ?</b><br>
+        Non. Le projet est éducatif et technologique. Aucune promesse de rendement n’est faite.
+      </p>
+      <p><b>Les enfants doivent acheter du token ?</b><br>
+        Non. Aucun achat obligatoire pour les enfants.
+      </p>
+      <p><b>Pourquoi Solana ?</b><br>
+        Pour sa rapidité et ses frais généralement faibles, utiles pour une expérience simple.
+      </p>
+      <p class="muted">
+        Plus de questions ? Contacte-nous.
+      </p>
     </div>
 
     <!-- CONTACT -->
